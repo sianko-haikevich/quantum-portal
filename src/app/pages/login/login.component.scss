@@ -1,0 +1,53 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+
+  .button-primary {
+    margin: 30px 0;
+  }
+}
+
+.username-input-wrapper {
+  position: relative;
+  height: 50px;
+}
+
+.login-form-input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  outline: none;
+
+  &::placeholder {
+    color: gainsboro;
+  }
+}
+
+.password-input-wrapper {
+  position: relative;
+  margin-top: 15px;
+}
+
+p {
+  mix-blend-mode: multiply;
+  text-align: center;
+  color: cadetblue;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: xx-large;
+}
+
+.form-wrapper {
+  max-width: 440px;
+  min-width: 280px;
+  width: 100%;
+  text-align: center;
+  margin: 15px;
+}
